@@ -3,9 +3,9 @@ from django.shortcuts import render
 
 def about(request):
     """Страница «О проекте»."""
-    return render(request, 'about.html', {})
+    return render(request, 'pages/about.html', {})
 
 
 def rules(request):
     """Страница «Наши правила»."""
-    return render(request, 'rules.html', {})
+    return render(request, 'pages/rules.html', {})
